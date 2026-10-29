@@ -1,0 +1,36 @@
+{
+  "name": "komiku-js",
+  "version": "3.0.0",
+  "description": "Standalone API scraper wrapper for extracting manga data from komiku.org (zero framework dependency)",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"No tests configured\" && exit 0",
+    "example:usage": "node examples/usage.js"
+  },
+  "keywords": [
+    "komiku",
+    "manga",
+    "scraper",
+    "wrapper",
+    "manhwa",
+    "manhua",
+    "api",
+    "standalone"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
